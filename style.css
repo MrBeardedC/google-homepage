@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+  
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  display:flex;
+  justify-content: space-between;
+  padding: 1em;
+  padding-bottom: 40px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  display:inline-block;
+  padding: 0 1em;
+}
+
+
+.logo {
+  width: 272px;
+  height: 92x;
+  margin-top: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+#search {
+  width: 600px;
+  border-radius: 40px;
+  height: 40px;
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 2em;
+  font-size: 14pt;
+  text-align:center;
+  display: inline-block;
+}
+
+
+#search:hover, .search:focus-within {
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+
+.footer {
+  font-size: small;
+  background-color: #f2f2f2;
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  text-decoration-color:#717579 ;
+}
+
+.footer-right {
+  text-decoration-color: #717579;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  font-family: sans-serif;
+}
+ 
+  a:hover {
+    text-decoration: underline;
+}
+
+#buttons input[type="submit"]
+{
+  background-color:#f3f3f3;
+  border-color:#9ca4a4;
+  border-radius:2px;
+  font-size:13px;
+  font-weight:300;
+  padding: 0 16px;
+  margin: 10px 4px;
+  height:36px;
+  color: #00000;
+
+}
+
+
+#buttons input[type="submit"]:hover {
+  color: #222;
+  border-color: rgb(198, 198, 198);
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 59%);
+}
+
+#sign {
+  display: inline-block;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 0 12px;
+  color: #fff;
+  cursor: default;
+  background: #0a4db8;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,166,255,1) 0%, rgba(23,163,238,1) 59%, rgba(0,166,255,1) 61%, rgba(0,153,255,1) 97%);
+}
+
+
